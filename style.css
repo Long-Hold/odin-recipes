@@ -8,18 +8,18 @@ h1, h3, ul, ol{
 }
 
 /* Stylizes lists on the index.html page */
-.index-list{
+.index-list, .ingredient-list{
     list-style-type: none;
 }
 
 /* Stylizes li elements that are ancestors of .index-list 
 li elements will have their own border, that is centered on screen*/
-.index-list li{
+.index-list li, .ingredient-list li, .steps-list li{
     border-style: outset;
     border-color: white;
     box-sizing: border-box;
     padding: 5px;
-    width: 25%;
+    width: 50%;
     margin: auto;
 }
 
