@@ -34,6 +34,7 @@ li elements will have their own border, that is centered on screen*/
     width: 50%;
     margin: auto;
     margin-top: 10px;
+    background-color: rgba(92, 88, 88, 0.179);
 }
 
 /* Stylize the link color */
@@ -52,6 +53,7 @@ p{
     height: auto;
     display: block;
     margin: auto;
+    margin-bottom: 30px;
     border-style: inset;
     border-color: white;
     border-width: 5px;
@@ -63,4 +65,9 @@ a:hover,
 .index-list :hover{
     color: #ffffff;
     border-color: rgb(210, 13, 13);
+    background-color: rgb(70, 66, 66);
+}
+
+h1, p, ul, ol{
+    margin-bottom: 20px;
 }
