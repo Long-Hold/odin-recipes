@@ -13,8 +13,10 @@ html{
     box-sizing: border-box;
 }
 
+/* Styling to center the elements */
 h1, h3, ul, ol{
     text-align: center;
+    margin: 0 auto;
 }
 
 /* Stylizes lists on the index.html page */
@@ -57,7 +59,7 @@ p{
 }
 
 /* The text will turn white, and the border will change colour*/
-.index-list a:hover,
+a:hover,
 .index-list :hover{
     color: #ffffff;
     border-color: rgb(210, 13, 13);
