@@ -1,3 +1,4 @@
+/* Reset default values and box-sizing */
 *,
 *::before,
 *::after{
@@ -30,6 +31,7 @@ li elements will have their own border, that is centered on screen*/
     padding: 5px;
     width: 50%;
     margin: auto;
+    margin-top: 10px;
 }
 
 /* Stylize the link color */
@@ -52,4 +54,11 @@ p{
     border-color: white;
     border-width: 5px;
     border-radius: 10px;
+}
+
+/* The text will turn white, and the border will change colour*/
+.index-list a:hover,
+.index-list :hover{
+    color: #ffffff;
+    border-color: rgb(210, 13, 13);
 }
